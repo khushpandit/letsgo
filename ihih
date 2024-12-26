@@ -1,0 +1,378 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   DroneInsights
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&family=Montserrat:wght@300;600&display=swap" rel="stylesheet"/>
+  <style>
+   @keyframes typing {
+    from {
+     width: 0;
+    }
+    to {
+     width: 100%;
+    }
+   }
+   @keyframes blink-caret {
+    from, to {
+     border-color: transparent;
+    }
+    50% {
+     border-color: white;
+    }
+   }
+   .typing {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid white;
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+   }
+   .wave {
+    animation: wave-animation 2.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+   }
+   @keyframes wave-animation {
+    0% {
+     transform: rotate(0deg);
+    }
+    10% {
+     transform: rotate(14deg);
+    }
+    20% {
+     transform: rotate(-8deg);
+    }
+    30% {
+     transform: rotate(14deg);
+    }
+    40% {
+     transform: rotate(-4deg);
+    }
+    50% {
+     transform: rotate(10deg);
+    }
+    60% {
+     transform: rotate(0deg);
+    }
+    100% {
+     transform: rotate(0deg);
+    }
+   }
+  </style>
+  <script>
+   function showContactInfo() {
+    alert("Name: Khush Pandit\nEmail: panditkhush961@gmail.com");
+   }
+  </script>
+ </head>
+ <body class="font-roboto bg-black text-white">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">
+     DroneInsights
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#trends">
+        Current Trends
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#about">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#" onclick="showContactInfo()">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto mt-8 px-4">
+   <section class="text-center mb-12">
+    <h2 class="text-4xl font-bold mb-4 typing">
+     Explore the World of Drones
+    </h2>
+    <p class="text-lg text-gray-300">
+     Learn everything about UAVs, their parts, and functionalities with interactive 3D models.
+    </p>
+   </section>
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-4">
+     Understanding Parts of a Drone
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Detailed image of a drone's propeller" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/03wV39XBQf3ZNitHq1dezNebxsdI22VoDKpKfIh5WHhbGYBPB.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Propeller
+      </h3>
+      <p class="text-gray-300">
+       The propeller is a type of fan that transmits power by converting rotational motion into thrust.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Detailed image of a drone's motor" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/vXLfcjH76fk4NUnMTpWEccv1G9ejaDZUh4RBMaQwnqtEDsgnA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Motor
+      </h3>
+      <p class="text-gray-300">
+       The motor is responsible for converting electrical energy into mechanical energy to spin the propellers.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Detailed image of a drone's battery" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/29nLrf9PDaz5MKs0fKwzPGME3MGUg7duyizXxccAiYAoBWwTA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Battery
+      </h3>
+      <p class="text-gray-300">
+       The battery provides the necessary power to the drone's motors and other electronic components.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Detailed image of a drone's camera" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/heeCPSR1yNv210Blee0CxoWiT17mA3Svk6fIrn413hQtMwCeE.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Camera
+      </h3>
+      <p class="text-gray-300">
+       The camera captures high-quality images and videos from the drone's perspective.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Detailed image of a drone's GPS module" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/dbvoFVeeGIpbv0VlfVw8cDFjEuO6pgqh3UghVtfkozodGYBPB.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       GPS Module
+      </h3>
+      <p class="text-gray-300">
+       The GPS module helps in navigation and provides accurate positioning data to the drone.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Detailed image of a drone's flight controller" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/6Tmi387rgIYwHdF5iqIvBRwAlmGqhS6lN7SilUe4u2YyAL4JA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Flight Controller
+      </h3>
+      <p class="text-gray-300">
+       The flight controller is the brain of the drone, managing all its functions and ensuring stable flight.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-4">
+     Types of Drones
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <h3 class="text-2xl font-bold mb-2">
+       Multi-Rotor Drones
+      </h3>
+      <div class="relative h-48 w-full mb-4">
+       <img alt="3D model of a multi-rotor drone" class="absolute top-0 left-0 w-full h-full rounded object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/2K86CfYvcfnjME6SoohOba7dw8bkQqzeCPe4G3qoec1bjxCeE.jpg" width="300"/>
+      </div>
+      <p class="text-gray-300">
+       Multi-rotor drones are the most common types of drones used by professionals and hobbyists. They are easy to control and can hover in a fixed position.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <h3 class="text-2xl font-bold mb-2">
+       Fixed-Wing Drones
+      </h3>
+      <div class="relative h-48 w-full mb-4">
+       <img alt="3D model of a fixed-wing drone" class="absolute top-0 left-0 w-full h-full rounded object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/61f5xWv6K7QfeJjFAoCfhUfkUI1Uc2dxffOJPYO7HgzaNGL4JA.jpg" width="300"/>
+      </div>
+      <p class="text-gray-300">
+       Fixed-wing drones are more efficient than multi-rotor drones and can cover larger distances. They are commonly used for surveying and mapping.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <h3 class="text-2xl font-bold mb-2">
+       Single-Rotor Drones
+      </h3>
+      <div class="relative h-48 w-full mb-4">
+       <img alt="3D model of a single-rotor drone" class="absolute top-0 left-0 w-full h-full rounded object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/iljfnmDye9u0MkGMCIyUWfgfmXIrLIFxyjhkpSoMpuu2xYBPB.jpg" width="300"/>
+      </div>
+      <p class="text-gray-300">
+       Single-rotor drones are similar to helicopters and are more efficient than multi-rotor drones. They are often used for longer flight times and heavier payloads.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <h3 class="text-2xl font-bold mb-2">
+       Hybrid VTOL Drones
+      </h3>
+      <div class="relative h-48 w-full mb-4">
+       <img alt="3D model of a hybrid VTOL drone" class="absolute top-0 left-0 w-full h-full rounded object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/x3FIIbmqlh4fB6ioEr2Gx5MlINLmW2No0H5Y9jzo0mzMGL4JA.jpg" width="300"/>
+      </div>
+      <p class="text-gray-300">
+       Hybrid VTOL (Vertical Take-Off and Landing) drones combine the features of fixed-wing and multi-rotor drones, offering the best of both worlds.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-12" id="trends">
+    <h2 class="text-3xl font-bold mb-4">
+     Current Trends
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Drone delivery service in action" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/GTvRsQffDeE3WoTRo9e0C2Wofi85hMFKMluftXnL7lLFfZL4JA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Drone Delivery Services
+      </h3>
+      <p class="text-gray-300">
+       Drone delivery services are revolutionizing the logistics industry by providing faster and more efficient delivery options.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Drone used in agriculture for crop monitoring" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/QMiLOvUnpE6xP1TvNKF7nznWolfLeM0XiplsUwpwsgl6zWwTA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Drones in Agriculture
+      </h3>
+      <p class="text-gray-300">
+       Drones are being used in agriculture for crop monitoring, spraying pesticides, and optimizing farming practices.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Drone capturing aerial footage for filmmaking" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/2IhGLsCdgeXpfUo9NikSNYFxR51cujrlejDSRFToZiEyntgnA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Drone Filmmaking
+      </h3>
+      <p class="text-gray-300">
+       Drones are transforming the filmmaking industry by providing unique aerial perspectives and reducing production costs.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Drone used in search and rescue operations" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/fA0072Z0uYwzF626ekoKN6c3vu7K5u95YVFSh2wyC0Y3zWwTA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Search and Rescue Drones
+      </h3>
+      <p class="text-gray-300">
+       Drones are being deployed in search and rescue operations to locate missing persons and deliver essential supplies.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Drone used for environmental monitoring" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/lbk0xDcsroYwNR7L9SNgEt4bDtfVCisyxlAvLTKIe252zWwTA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Environmental Monitoring
+      </h3>
+      <p class="text-gray-300">
+       Drones are being used for environmental monitoring, including tracking wildlife, assessing natural disasters, and monitoring pollution levels.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <img alt="Drone used in construction for site inspection" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/fzIhPx41Pw3SNKe3zljQQ4Ewc00ZiHzrsvuCVFAbEYV7zWwTA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Construction Drones
+      </h3>
+      <p class="text-gray-300">
+       Drones are being utilized in the construction industry for site inspections, surveying, and monitoring project progress.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-12" id="about">
+    <h2 class="text-3xl font-bold mb-4">
+     About Me
+    </h2>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex items-center">
+     <div class="mr-6">
+      <img alt="Cartoon character of a young man waving" class="wave rounded-full" height="150" src="  image ka url okay? " width="150"/>
+     </div>
+     <div>
+      <h3 class="text-2xl font-pacifico text-blue-400 mb-2">
+       Hi, I'm Khush Pandit
+      </h3>
+      <p class="text-lg font-montserrat text-gray-300 mb-4">
+        I'm an 18-year-old aviation enthusiast and a passionate computer science student. My journey into the world of drones started at a young age, and I've been captivated by the technology ever since.
+    </p>
+    <p class="text-lg font-montserrat text-gray-300 mb-4">
+     I love exploring the latest advancements in UAV technology and sharing my knowledge with others. Whether it's building drones, flying them, or understanding their intricate components, I'm always eager to learn and grow.
+    </p>
+    <p class="text-lg font-montserrat text-gray-300 mb-4">
+     Apart from drones, I have a keen interest in software development, artificial intelligence, and robotics. My goal is to combine these fields to create innovative solutions that can make a difference in the world.
+    </p>
+    <p class="text-lg font-montserrat text-gray-300">
+     Join me on this exciting journey as we delve into the fascinating world of drones and uncover the endless possibilities they offer.
+    </p>
+   </div>
+  </div>
+ </section>
+ <section class="mb-12">
+    <h2 class="text-3xl font-bold mb-4">
+     Your Reviews are Most Valuable
+    </h2>
+    <form class="bg-gray-800 p-6 rounded-lg shadow-lg">
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div>
+       <label class="block text-gray-300 mb-2" for="name">
+        Name
+       </label>
+       <input class="w-full p-2 rounded bg-gray-700 text-white" id="name" name="name" type="text"/>
+      </div>
+      <div>
+       <label class="block text-gray-300 mb-2" for="country">
+        Country
+       </label>
+       <input class="w-full p-2 rounded bg-gray-700 text-white" id="country" name="country" type="text"/>
+      </div>
+     </div>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div>
+       <label class="block text-gray-300 mb-2" for="mobile">
+        Mobile No
+       </label>
+       <input class="w-full p-2 rounded bg-gray-700 text-white" id="mobile" name="mobile" type="text"/>
+      </div>
+      <div>
+       <label class="block text-gray-300 mb-2" for="rating">
+        Rating
+       </label>
+       <select class="w-full p-2 rounded bg-gray-700 text-white" id="rating" name="rating">
+        <option value="1">
+         1
+        </option>
+        <option value="2">
+         2
+        </option>
+        <option value="3">
+         3
+        </option>
+        <option value="4">
+         4
+        </option>
+        <option value="5">
+         5
+        </option>
+       </select>
+      </div>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-300 mb-2" for="review">
+       Review
+      </label>
+      <textarea class="w-full p-2 rounded bg-gray-700 text-white" id="review" name="review" rows="4">
+      </textarea>
+     </div>
+     <footer class="bg-blue-600 text-white p-4 mt-12">
+        <div class="container mx-auto text-center">
+         <p>
+          © 2024 DroneInsights. All rights reserved.
+         </p>
+        </div>
+       </footer>
+      </body>
+     </html>
